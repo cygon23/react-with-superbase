@@ -6,3 +6,8 @@
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+##You can set the NODE_OPTIONS environment variable to allow legacy OpenSSL algorithms.
+This can be done in your terminal before starting your development server:
+
+```export NODE_OPTIONS=--openssl-legacy-provider ```
